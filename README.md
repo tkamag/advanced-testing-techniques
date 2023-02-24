@@ -33,9 +33,9 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C,W1203,E1101 mlib cli utilscli
-	#lint Dockerfile
-	#docker run --rm -i hadolint/hadolint < Dockerfile
+    pylint --disable=R,C,W1203,E1101 mlib cli utilscli
+    #lint Dockerfile
+    #docker run --rm -i hadolint/hadolint < Dockerfile
 
 deploy:
 	#push to ECR for deploy
